@@ -67,7 +67,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "invoice-extract:build"
+            "browserTarget": "invoice-extract:build",
+            "port": 8080
           },
           "configurations": {
             "production": {
